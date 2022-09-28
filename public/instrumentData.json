@@ -1,0 +1,44 @@
+[
+    {
+        "id":"11",
+        "image":"https://www.bestusedgymequipment.com/wp-content/uploads/2021/06/tricep-press-machine-283x300.jpg",
+        "name":"CHEST PRESS MACHINE",
+        "details":"If you’re looking for easy to use exercise equipment that targets your upper body, then you should try it.",
+        "time":"120"
+    },
+    {
+        "id":"12",
+        "image":"https://www.bestusedgymequipment.com/wp-content/uploads/2018/03/hammer-strength-plate-loaded-seated-dip-600x600.jpg",
+        "name":"SEATED DIP MACHINE",
+        "details":"The seated dip machine allows you to enjoy all the benefits of normal bench, then you should try it.",
+        "time":"100"
+    },
+    {
+        "id":"13",
+        "image":"https://www.bestusedgymequipment.com/wp-content/uploads/2018/04/olympic-flat-bench-600x600.jpg",
+        "name":"BENCH PRESS",
+        "details":"The bench press is a popular type of gym equipment, especially for those just starting to get into weight lifting.",
+        "time":"90"
+    },
+    {
+        "id":"14",
+        "image":"https://www.bestusedgymequipment.com/wp-content/uploads/2020/09/olympic-incline-bench-600x600.jpg",
+        "name":"INCLINE BENCH PRESS",
+        "details":"The incline bench is exactly the same as the bench press; the only difference is it allows you to press at an incline.",
+        "time":"70"
+    },
+    {
+        "id":"15",
+        "image":"https://www.bestusedgymequipment.com/wp-content/uploads/2021/01/buge-adjustable-bench-m037.jpg",
+        "name":"ADJUSTABLE BENCH",
+        "details":"An adjustable bench allows you to incorporate all the benefits of a flat bench. incline, and decline bench press.",
+        "time":"95"
+    },
+    {
+        "id":"16",
+        "image":"https://www.bestusedgymequipment.com/wp-content/uploads/2021/06/tricep-press-machine-283x300.jpg",
+        "name":"TRICEPS PRESS MACHINE",
+        "details":"You can either get a seated or standing tricep press machine.",
+        "time":"105"
+    }
+]

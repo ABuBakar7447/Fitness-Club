@@ -1,0 +1,11 @@
+.fitness-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.gymDetails-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 8px;
+}
