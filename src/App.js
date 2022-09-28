@@ -6,7 +6,7 @@ function App() {
   
   return (
     
-    <Fitness></Fitness>
+      <Fitness></Fitness>
     
   );
 }

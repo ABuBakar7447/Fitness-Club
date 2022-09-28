@@ -3,16 +3,17 @@ import './Instrument.css'
 
 
 const Instrument = (props) => {
-    console.log(props.gymDetails)
-    const{image, name, details, time} = props.gymDetails
+    
+    const{gymDetails, handleAddToUseDetails} = props
+    const{image, name, details, time} = gymDetails
     return (
         <div className='gymDetails'>
             <img src={image} alt="" ></img>
-            <p className='different-color'>{name}</p>
+            <p><span className='different-color'>{name}</span></p>
             <p>{details}</p>
             <p>Time:<span className='different-color'>{time}</span>s</p>
 
-            <button className='gymTool-btn'>
+            <button onClick={() =>handleAddToUseDetails(gymDetails)} className='gymTool-btn'>
                 <p>Add Instrument</p>
             </button>
         </div>
