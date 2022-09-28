@@ -13,9 +13,10 @@ const Fitness = () => {
     return (
         <div className='fitness-container'>
             <div className="gymDetails-container">
-            <h1>
-                bye
-            </h1> 
+                {
+                   instruments.map(gymTools =><Instrument key= {gymTools.id}
+                   gymDetails={gymTools}></Instrument>) 
+                }
             </div>
             <div className="usageTime-conataine">
                 <h1>

@@ -1,0 +1,41 @@
+.gymDetails{
+    width: 200px;
+    height: 400px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.gymDetails img{
+    width: 180px;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.096);
+    margin: 8px 8px;
+    border-radius: 5px;
+}
+
+.gymDetails p{
+    font-weight: 200px;
+    font-size: 12px;
+    margin: 8px;
+}
+
+.different-color{
+    color: blue;
+    font-weight: bold;
+}
+
+.gymTool-btn{
+    width: 100%;
+    font-weight: bolder;
+    background-color:lightslategray;
+    position: absolute;
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+    bottom: 0;
+}
+
+.gymTool-btn:hover{
+    background-color: orange;
+}
