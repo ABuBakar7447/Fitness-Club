@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          E-Learn React er 14 gusti
         </a>
       </header>
     </div>
