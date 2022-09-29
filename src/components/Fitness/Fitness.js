@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Instrument from '../Instruments/Instrument';
+import { GetItem, Localstorage } from '../Localstorage/Localstorage';
+
 import UseageDetails from '../UsageDetails/UseageDetails';
 import './Fitness.css'
 
@@ -14,16 +16,16 @@ const Fitness = () => {
         .then(data => setInstruments(data))
     }, [])
 
-    const handleAddToUseDetails = (gymDetails) =>{
-        // console.log(gymDetails)
-        
+    
+
+    const handleAddToUseDetails = (gymDetails) =>{   
         const newData = [...clickedData, gymDetails]
         setClickedData(newData);
     }
 
     const handlebreakbtn = (brkTime) =>{
         // console.log(gymDetails)
-        
+       Localstorage(brkTime)
         const newbrkData = [brkTime]
         setClickBtn(newbrkData);
     }

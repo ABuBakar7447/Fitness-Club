@@ -5,7 +5,7 @@ import logo from '../image/student-5.png'
 const UseageDetails = (props) => {
     const {clickData, handlebreakbtn,clickbtn} = props;
     // const {time} =clickData;
-    console.log(clickbtn)
+    // console.log(clickbtn)
     let totalTime = 0;
     for(const detail of clickData){
         totalTime = totalTime + parseInt(detail.time)
