@@ -1,8 +1,12 @@
 import React from 'react';
 import './UseageDetails.css'
 import logo from '../image/student-5.png'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const UseageDetails = (props) => {
+
+    const notify = () => toast("Congratulation,You have successfully done your training")
     const {clickData, handlebreakbtn,clickbtn} = props;
     // const {time} =clickData;
     // console.log(clickbtn)
@@ -74,6 +78,11 @@ const UseageDetails = (props) => {
                        <span className='space-right'>{clickbtn[0]}</span> sec
                     </p>
                 </div>
+            </div>
+
+            <div className='toast-btn'>
+                <button className='activity-btn' onClick={notify}>Activity Check</button>
+                <ToastContainer />
             </div>
            
             

@@ -75,3 +75,25 @@
 .space-right{
     margin-right: 2px;
 }
+
+.toast-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+.activity-btn{
+    padding: 5px 20px;
+    font-weight: bolder;
+    background-color:lightslategray;
+    border-radius: 5px;
+    color: white;
+}
+.activity-btn:hover{
+    background-color: black;
+}
+.activity-btn:focus{
+    background-color: black;
+}
+
