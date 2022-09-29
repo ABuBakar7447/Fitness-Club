@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Instrument from '../Instruments/Instrument';
 import { GetItem, Localstorage } from '../Localstorage/Localstorage';
+import Questions from '../Questions/Questions';
 
 import UseageDetails from '../UsageDetails/UseageDetails';
 import './Fitness.css'
@@ -47,6 +48,8 @@ const Fitness = () => {
                         ></Instrument>) 
                     }
                 </div>
+
+                <Questions></Questions>
             </div>
             
             <div className="usageTime-container">

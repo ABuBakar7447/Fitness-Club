@@ -17,3 +17,33 @@
     gap: 20px;
     margin: 8px;
 }
+
+@media only screen and (max-width:688px){
+    .fitness-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gymDetails-container{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin: 8px;
+    }
+}
+
+@media only screen and (min-width:688px) and (max-width:992px){
+    .fitness-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gymDetails-container{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin: 8px;
+    }
+}

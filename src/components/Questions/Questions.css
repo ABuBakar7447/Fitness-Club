@@ -1,0 +1,14 @@
+.question-div{
+    border: 2px solid gray;
+    color: whitesmoke;
+    margin: 20px 20px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 13px;
+}
+
+.main-question{
+    color: yellow;
+    font-weight: bold;
+    font-size: 15px;
+}

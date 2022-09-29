@@ -45,3 +45,25 @@
 .gymTool-btn:hover{
     background-color: orange;
 }
+
+@media only screen and (max-width:688px){
+    .gymDetails{
+        width: 150px;
+    }
+
+    .gymDetails img{
+        width: 130px;
+        height: 160px;
+    }
+}
+
+@media only screen and (min-width:688px) and (max-width:992px){
+    .gymDetails{
+        width: 190px;
+    } 
+
+    .gymDetails img{
+        width: 179px;
+        height: 198px;
+    }
+}
