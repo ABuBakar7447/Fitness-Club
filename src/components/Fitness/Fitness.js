@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Instrument from '../Instruments/Instrument';
+import logo from '../image/gym-icon.png'
 import { GetItem, Localstorage } from '../Localstorage/Localstorage';
 import Questions from '../Questions/Questions';
 
@@ -37,8 +38,13 @@ const Fitness = () => {
     return (
         <div className='fitness-container'>
             <div className='back-style'>
-                <h1 className='text-style'>Fitness Club</h1>
-                <h4 className='text-style'>Choose your instrument wisly</h4>
+                <div className='page-name'>
+                    <img src={logo} alt="" />
+                    <h1>Fitness Club</h1>  
+                </div>
+
+                <h4 className='text-style'>Choose your instrument wisely</h4>
+
                 <div className="gymDetails-container">
                     {
                     instruments.map(gymTools =><Instrument 
