@@ -2,3 +2,46 @@
     position: sticky;
     top: 0;
 }
+.userDetails{
+    display: flex;
+    align-items: center;
+    
+}
+
+.detailed-information{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.body-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.39);
+    color: black;
+    margin: 5px 8px;
+}
+.details-style{
+    margin-left: 8px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.total-time{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: gray;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 5px 8px;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
