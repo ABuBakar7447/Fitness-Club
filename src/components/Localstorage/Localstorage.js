@@ -6,5 +6,16 @@ const Localstorage = (brkTime) => {
     // console.log(JSON.parse(getTime))
 };
 
-
-export{Localstorage}
+const GetItem = () =>{
+    let brktime = {}
+    const getTime = localStorage.getItem('Break-Time')
+    if(getTime){
+        brktime = JSON.parse(getTime)
+    }
+    else{
+        brktime = {brkTime: 0}
+    }
+   
+    return brktime
+}
+export{Localstorage, GetItem}

@@ -16,7 +16,11 @@ const Fitness = () => {
         .then(data => setInstruments(data))
     }, [])
 
-    
+    useEffect( ()=>{
+        const storeTime = GetItem()
+        const storeClickbtn = [storeTime.brkTime]
+        setClickBtn(storeClickbtn)
+    }, [])
 
     const handleAddToUseDetails = (gymDetails) =>{   
         const newData = [...clickedData, gymDetails]
