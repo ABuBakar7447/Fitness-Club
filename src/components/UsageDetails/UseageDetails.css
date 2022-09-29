@@ -26,7 +26,33 @@
     color: black;
     margin: 5px 8px;
 }
-.details-style{
+
+.btn-div{
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: gray;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 5px 8px;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.brk-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.brk-btn:focus{
+    background-color: rgba(0, 0, 255, 0.411);
+}
+.excercise-details{
     margin-left: 8px;
     color: black;
     font-weight: bold;
@@ -44,4 +70,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.space-right{
+    margin-right: 2px;
 }

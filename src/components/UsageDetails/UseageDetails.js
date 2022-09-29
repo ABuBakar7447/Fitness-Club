@@ -3,14 +3,16 @@ import './UseageDetails.css'
 import logo from '../image/student-5.png'
 
 const UseageDetails = (props) => {
-    const {clickData} = props;
+    const {clickData, handlebreakbtn,clickbtn} = props;
     // const {time} =clickData;
-    // console.log(clickData)
+    console.log(clickbtn)
     let totalTime = 0;
     for(const detail of clickData){
         totalTime = totalTime + parseInt(detail.time)
         
     }
+
+    
     
     return (
         <div className='userInformation'>
@@ -37,16 +39,31 @@ const UseageDetails = (props) => {
                 </div>
             </div>
 
+            <div>
+                <p className='excercise-details'>
+                    Add A Break
+                </p>
+
+                <div className='btn-div'>
+                    <button className='brk-btn' onClick={() => handlebreakbtn(10)}>10</button>
+                    <button className='brk-btn' onClick={() => handlebreakbtn(20)}>20</button>
+                    <button className='brk-btn' onClick={() => handlebreakbtn(30)}>30</button>
+                    <button className='brk-btn' onClick={() => handlebreakbtn(40)}>40</button>
+                </div>
+
+            </div>
+            
+
 
 
             <div>
-                <p className='details-style'>Excercise Details</p>
+                <p className='excercise-details'>Excercise Details</p>
                 <div className='total-time'>
                     <p>
                         Exercise time
                     </p>
                     <p>
-                        {totalTime}seconds
+                        <span className='space-right'>{totalTime}</span> min
                     </p>
                 </div>
                 <div className='total-time'>
@@ -54,7 +71,7 @@ const UseageDetails = (props) => {
                         Break time
                     </p>
                     <p>
-                        {totalTime}seconds
+                       <span className='space-right'>{clickbtn[0]}</span> sec
                     </p>
                 </div>
             </div>

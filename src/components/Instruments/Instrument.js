@@ -11,7 +11,7 @@ const Instrument = (props) => {
             <img src={image} alt="" ></img>
             <p><span className='different-color'>{name}</span></p>
             <p>{details}</p>
-            <p>Time:<span className='different-color'>{time}</span>s</p>
+            <p>Time:<span className='different-color'>{time}</span>min</p>
 
             <button onClick={() =>handleAddToUseDetails(gymDetails)} className='gymTool-btn'>
                 <p>Add Instrument</p>

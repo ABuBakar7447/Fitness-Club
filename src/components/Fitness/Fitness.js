@@ -6,6 +6,7 @@ import './Fitness.css'
 const Fitness = () => {
     const [instruments, setInstruments] = useState([]);
     const [clickedData, setClickedData] = useState([])
+    const [clickbtn, setClickBtn] = useState([0])
 
     useEffect( () =>{
         fetch('instrumentData.json')
@@ -18,6 +19,13 @@ const Fitness = () => {
         
         const newData = [...clickedData, gymDetails]
         setClickedData(newData);
+    }
+
+    const handlebreakbtn = (brkTime) =>{
+        // console.log(gymDetails)
+        
+        const newbrkData = [brkTime]
+        setClickBtn(newbrkData);
     }
     return (
         <div className='fitness-container'>
@@ -36,7 +44,10 @@ const Fitness = () => {
             </div>
             
             <div className="usageTime-container">
-                <UseageDetails clickData={clickedData}></UseageDetails>
+                <UseageDetails 
+                clickData={clickedData}
+                handlebreakbtn={handlebreakbtn}
+                clickbtn={clickbtn}></UseageDetails>
             </div>
         </div>
     );

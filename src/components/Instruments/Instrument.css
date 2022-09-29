@@ -25,6 +25,7 @@
 .different-color{
     color: blue;
     font-weight: bold;
+    margin: 0px 2px;
 }
 
 .gymTool-btn{
@@ -35,6 +36,10 @@
     border: none;
     border-radius: 0px 0px 5px 5px;
     bottom: 0;
+}
+
+.gymTool-btn:focus{
+    background-color: orange;
 }
 
 .gymTool-btn:hover{
